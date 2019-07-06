@@ -1,5 +1,11 @@
 # 命令行练习：javac与java命令练习
 
+请在如下文件中完成Linux命令挑战：
+
+- [读取环境变量与系统属性 read-env-variable-system-property/solution.sh](https://github.com/hcsp/practise-java-commands/blob/master/read-env-variable-system-property/solution.sh)
+- [带classpath的编译运行 compile-run-with-classpath/solution.sh](https://github.com/hcsp/practise-java-commands/blob/master/compile-run-with-classpath/solution.sh)
+- [标准输出与标准错误重定向 system-out-system-err/solution.sh](https://github.com/hcsp/practise-java-commands/blob/master/system-out-system-err/solution.sh)
+
 在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean test`)
 
 -----
