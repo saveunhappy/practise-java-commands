@@ -7,6 +7,7 @@
 - [标准输出与标准错误重定向 system-out-system-err/solution.sh](https://github.com/hcsp/practise-java-commands/blob/master/system-out-system-err/solution.sh)
 
 # 请切记，只提交对`solution.sh`文件的修改，不要提交其他文件！！！！
+# 请注意，如果你使用的是Windows，请不要在IDEA或者cmd中运行`mvn clean test`，而是在Git bash中运行！
 
 在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean test`)
 
