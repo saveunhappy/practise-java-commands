@@ -7,3 +7,12 @@
 # First argument is blank: true
 # Second argument is blank: true
 # Third argument is blank: false
+
+# 1. 解：
+javac -cp commons-lang3-3.9.jar StringIsBlank.java
+
+# 2. UNIX 环境：
+java -cp commons-lang3-3.9.jar:. StringIsBlank '' ' ' '"*"'
+
+# 2. Windows + Git Bash 环境：
+#java -cp 'commons-lang3-3.9.jar;.' StringIsBlank '' ' ' '"*"'
