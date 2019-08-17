@@ -13,7 +13,7 @@ public class ShellTest {
     @Test
     public void testReadEnvAndSystemProperty() {
         String stdout =
-                runIn("read-env-variable-system-property", "sh", "solution.sh")
+                runIn("read-env-variable-system-property", "bash", "solution.sh")
                         .assertZeroExitCode()
                         .getStdout();
         Assertions.assertTrue(stdout.contains("Environment variable AAA: $A;"));
@@ -23,7 +23,7 @@ public class ShellTest {
     @Test
     public void testCompileRun() {
         String stdout =
-                runIn("compile-run-with-classpath", "sh", "solution.sh")
+                runIn("compile-run-with-classpath", "bash", "solution.sh")
                         .assertZeroExitCode()
                         .getStdout();
         Assertions.assertTrue(stdout.contains("Args size: 3"));
@@ -34,7 +34,7 @@ public class ShellTest {
 
     @Test
     public void testStdoutStderr() throws IOException {
-        runIn("system-out-system-err", "sh", "solution.sh").assertZeroExitCode();
+        runIn("system-out-system-err", "bash", "solution.sh").assertZeroExitCode();
         String file =
                 new String(
                         Files.readAllBytes(
