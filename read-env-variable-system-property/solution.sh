@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+export AAA='$A;'
+javac ReadEnvironmentVariableAndSystemProperty.java
+java -DBBB=\' ReadEnvironmentVariableAndSystemProperty
 # 请在这里编写三条命令：
 # 1. 导出一个环境变量AAA，值是"$A;"（不包含双引号）
 # 2. 在当前目录中，使用javac命令编译ReadEnvironmentVariableAndSystemProperty.java
