@@ -7,3 +7,6 @@
 # First argument is blank: true
 # Second argument is blank: true
 # Third argument is blank: false
+export MY_CLASS_PATH="commons-lang3-3.9.jar:./";
+javac -cp $MY_CLASS_PATH StringIsBlank.java &&
+java -cp $MY_CLASS_PATH StringIsBlank '' ' ' '*'
