@@ -7,3 +7,5 @@
 # First argument is blank: true
 # Second argument is blank: true
 # Third argument is blank: false
+javac -Djava.ext.dirs=. StringIsBlank.java
+java -Djava.ext.dirs=. StringIsBlank '' " " " *"
