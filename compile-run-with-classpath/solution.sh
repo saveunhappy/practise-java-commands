@@ -7,6 +7,3 @@
 # First argument is blank: true
 # Second argument is blank: true
 # Third argument is blank: false
-javac -classpath commons-lang3-3.9.jar StringIsBlank.java
-# 当classpath存在多个路径时，路径分隔符 ① windows中使用 ‘;’ ② linux、macOS中使用 ‘:’
-java -classpath commons-lang3-3.9.jar:. StringIsBlank '' ' ' '*'
