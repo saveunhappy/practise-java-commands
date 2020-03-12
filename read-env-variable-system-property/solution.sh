@@ -4,5 +4,8 @@
 # 2. 在当前目录中，使用javac命令编译ReadEnvironmentVariableAndSystemProperty.java
 # 3. 在当前目录中，使用java命令运行ReadEnvironmentVariableAndSystemProperty，并传递系统属性（System property）BBB，值为'（一个单引号）
 # 使得该java命令输出：
+export AAA='$A;'
+javac ReadEnvironmentVariableAndSystemProperty.java
+java -DBBB=\' ReadEnvironmentVariableAndSystemProperty
 # Environment variable AAA: $A;
 # System property BBB: '
