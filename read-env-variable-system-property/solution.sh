@@ -6,3 +6,10 @@
 # 使得该java命令输出：
 # Environment variable AAA: $A;
 # System property BBB: '
+
+# 解1、设置环境变量
+export AAA='$A;'
+# 解2、编译ReadEnvironmentVariableAndSystemProperty.java文件
+javac ReadEnvironmentVariableAndSystemProperty.java
+# 解3、运行ReadEnvironmentVariableAndSystemProperty字节码文件
+java -DBBB="'" ReadEnvironmentVariableAndSystemProperty
