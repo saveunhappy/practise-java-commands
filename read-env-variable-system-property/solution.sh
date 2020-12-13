@@ -6,7 +6,3 @@
 # 使得该java命令输出：
 # Environment variable AAA: $A;
 # System property BBB: '
-# shellcheck disable=SC1068
-export AAA='$A;'
-javac ReadEnvironmentVariableAndSystemProperty.java
-java -DBBB=\' ReadEnvironmentVariableAndSystemProperty
